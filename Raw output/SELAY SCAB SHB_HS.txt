@@ -1,0 +1,29 @@
+ *****************************************************************************************
+
+ Total Run Time hrs:mins:secs 1:45:40  Scab_HS_0_08 state REFRIG C-OFF
+
+
+  DIPS= 4-6-8-10-12-14-16-18-20-22-24-26-28-30-32   default 18
+
+
+  DEF sh at 10, def int boost at 40, now comp SH , int boost 5, int burn 50-5
+
+
+  Super Heat  4.3, Suction Temp 19.0, Suction Pressure 107.6, Suction Pressure Limit in REFRIG 50.0, SH Error -5.5, SH Target 12.0, Liquid PWM Solenoid Duty 10.0
+
+
+    During Defrost, PWM Solenoid Duty 10.0,
+
+
+    PWM Prop 42.7, PWM Int -20.6, PWM Total PID 22.0,
+
+
+    Defrost Prop  0.0, Defrost Int  0.0, Defrost Total PID  0.0,
+
+
+  PID Adjustment Count     6920,  Cold Junction 31.5,            Suct Press Transducer input voltage 5.2, Suct Press Duty Cycle Adjust 169.1,
+
+
+    VDC in from IDEC   0.1    freq out J6 to 1st stage compressor   0.0
+
+   *****************************************************************************************

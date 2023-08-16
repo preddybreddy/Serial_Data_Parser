@@ -1,0 +1,3 @@
+['Total Run Time hrs:mins:secs 1:43:00    Scab_LS_0_08', 
+ 'DIPS= 4-6-8-10-12-14-16-18-20-22-24-26-28-30-32   default 10       String1 abcdefgh    state REFRIG C-OFF', 
+'Super Heat 41.6, Evap Out 21.2, Suction Pressure 214.6, Suction Pressure Limit in REFRIG 25.0, SH Error 0.0, SH Target 10.0, Liquid PWM Solenoid Duty 10.0,', 'Suction Press Target in Defrost 35.0, Suction Press Error in Defrost 0.0,                                       Hot Gas PWM Solenoid Duty 10.0,', 'PWM Prop  0.0, PWM Int 9218.7, PWM Total PID  0.0,', 'HGV Prop  0.0, HGV Int  0.0, HGV Total PID  0.0,', 'Cold Junction 30.6, Suct Press Transducer input voltage 10.765, Suct Press Duty Cycle Adjust   0.0,', 'VDC in from IDEC   0.1    freq out J6 to 2nd stage compressor   0.0']
