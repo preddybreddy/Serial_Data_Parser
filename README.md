@@ -1,20 +1,21 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+All the python source code is converted into executables to run on the host machine. The executable reads serial data incoming from a COM port and outputs a table with refreshed data every 10 seconds.
 
 # Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
 1.	Installation process
+    - Environments are based on conda
+    - To recreate the environment use ```conda create --name <name_of_environment> --file spec-list.txt``` 
 2.	Software dependencies
-3.	Latest releases
-4.	API references
+    * Python packages
+        - pyserial 3.5
+        - tabulate
+        - tkinter
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+# How to use the app
+1. The executables for three different boards are in the ```dist``` folder
+2. Plug in the ULC board and identify the COM port from which it is receving data
+3. Run the appropriate executable and enter the identified COM port 
 
 # Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+1. Make the program non-blocking so that the COM port input window is responsive when data from the board is being parsed
+2. Close or minimize the COM port input window once an input from the user is submitted
