@@ -1,9 +1,9 @@
 ('C:\\Users\\u223742\\OneDrive - Trane '
- 'Technologies\\Documents\\Everyday\\Python\\Serial\\Serial\\build\\ulc\\PYZ-00.pyz',
+ 'Technologies\\Documents\\Everyday\\Python\\ULC_Tables\\ULC_TABLE\\build\\ulc\\PYZ-00.pyz',
  [('Utils_', '-', 'PYMODULE'),
   ('Utils_.utils',
    'C:\\Users\\u223742\\OneDrive - Trane '
-   'Technologies\\Documents\\Everyday\\Python\\Serial\\Serial\\Utils_\\utils.py',
+   'Technologies\\Documents\\Everyday\\Python\\ULC_Tables\\ULC_TABLE\\Utils_\\utils.py',
    'PYMODULE'),
   ('__future__',
    'C:\\Users\\u223742\\AppData\\Local\\anaconda3\\envs\\serial\\Lib\\__future__.py',
