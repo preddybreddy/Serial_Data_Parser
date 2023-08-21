@@ -39,6 +39,7 @@ def output_table(com_port, generate_table_func):
     prev_time = 0
     while(True):
         output_set = get_valid_input(serial_obj)
+        os.system('cls')
         output_set_stripped = strip_line(output_set)
         output_set_empty_strings_removed = remove_empty_string(output_set_stripped)
         curr_time = extract_time(output_set_stripped[0])
@@ -47,7 +48,6 @@ def output_table(com_port, generate_table_func):
             print('Data is not synchronized with 10-sec intervals\n')
             print('Restart process')
         # output table
-        os.system('cls')
         generate_table_func(output_set_empty_strings_removed)
         prev_time = curr_time
         time.sleep(9.5)
