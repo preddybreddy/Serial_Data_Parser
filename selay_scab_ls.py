@@ -5,7 +5,7 @@ from tabulate import tabulate
 
 def generate_table(current_data_from_ULC_formatted):
     head = ['Parameter', '\"Raw Data\"/DISPLAY']
-    properties = ['Software Version', 'STATE', 'SUPERHEAT', 'EVAP OUT', 'SUCTION PRESSURE', 'LIQUID SOLENOID DUTY', 'SH Error', 'HOT GAS DUTY']
+    properties = ['Software Version', 'STATE', 'SUPERHEAT', 'EVAP OUT', 'SUCTION PRESSURE', 'LIQUID SOLENOID DUTY', 'SH Target', 'HOT GAS DUTY']
     values = [utils_selay_ls.extract_SCAB_version(current_data_from_ULC_formatted[0]), utils.extract_state(current_data_from_ULC_formatted[1]), 
      utils.extract_superheat_evap_suction_solenoids(current_data_from_ULC_formatted[2], 'Super Heat'), 
      utils.extract_superheat_evap_suction_solenoids(current_data_from_ULC_formatted[2], 'Evap Out'),
