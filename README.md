@@ -16,6 +16,10 @@ All the python source code is converted into executables to run on the host mach
 2. Plug in the ULC board and identify the COM port from which it is receving data
 3. Run the appropriate executable and enter the identified COM port 
 
+- Sample Output
+
+    ![sample data grid for ULC board](./sample_output.png)
+
 # Contribute
 1. Make the program non-blocking so that the COM port input window is responsive when data from the board is being parsed
 2. Close or minimize the COM port input window once an input from the user is submitted
