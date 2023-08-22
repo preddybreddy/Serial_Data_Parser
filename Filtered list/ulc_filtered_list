@@ -1,0 +1,5 @@
+['Total Run Time hrs:mins:secs 23:06:40    ULC_1XXX_LS_3_01  boost duty cycle 10 percent & delay SH start each comp off, int burn 50-5, int reset when suct press > 25', 'DIPS = 4-6-15-20 default 4  Duty 40-41-43-44 default 42        state REFRIG C-OFF', 'Removed 2.0 degree offset to TC2 that had been used to force SH control lower', 'Super Heat 127.4, Evap Out 25.2, Suction Pressure 5.7, Suction Pressure Limit 
+in REFRIG 25.0, SH Error 0.0, SH Target 4.0, Liquid PWM Solenoid Duty 10.0,', 'Suction Press Target in Defrost 35.0, Suction Press Error in Defrost 0.0,                      
+Hot Gas PWM Solenoid Duty 10.0,', 'PWM Prop  0.0, PWM Int  0.0, PWM Total PID  0.0,', 'HGV Prop  0.0, HGV Int  0.0, HGV Total PID -2656634.6,', 
+'Cold Junction 27.5, Suct Press Transducer input voltage 0.051, Suct Press Duty Cycle Adjust   0.0, (softened with squared diff term)', 
+'Comp Start  0, EPR Control  1', 'EPR Low Control 20.0,  EPR High Control 50.0', 'Temp Set Point  -0.3']
