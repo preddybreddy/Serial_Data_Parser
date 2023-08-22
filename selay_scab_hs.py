@@ -3,7 +3,8 @@ import Utils_.utils_selay_ls as utils_selay_ls
 import Utils_.utils_selay_hs as utils_selay_hs
 from tabulate import tabulate
 
-
+# Each module only differs in the generate_table method because of the way the specific circuit board outputs data
+# All the base logic is in Utils_/utils
 def generate_table(current_data_from_ULC_formatted):
     head = ['Parameter', '\"Raw Data\"/DISPLAY']
     properties = ['Software Version', 'STATE', 'SUPERHEAT',  'SUCTION PRESSURE', 'LIQUID SOLENOID DUTY', 'SH Target']
@@ -18,23 +19,6 @@ def generate_table(current_data_from_ULC_formatted):
         table_data.append([i, j])
     print(tabulate(table_data, headers=head, tablefmt='grid'))
 
-#def get_valid_input(lines):
-#    # Also temporary logic --delete after
-#    lines_from_ULC = []
-#    i = 0
-#    first_line = lines[i]
-#    while 'Total Run Time' not in first_line:
-#        i += 1
-#        first_line = lines[i]
-#
-#    lines_from_ULC.append(first_line) 
-#    i = i + 1   
-#    first_line = lines[i]
-#    while ('*' not in first_line):
-#        lines_from_ULC.append(first_line)
-#        i = i + 1
-#        first_line = lines[i]
-#    return lines_from_ULC
 
 
 if __name__ == '__main__':   

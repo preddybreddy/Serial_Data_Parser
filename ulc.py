@@ -1,7 +1,8 @@
 import Utils_.utils as utils
 from tabulate import tabulate
 
-
+# Each module only differs in the generate_table method because of the way the specific circuit board outputs data
+# All the base logic is in Utils_/utils
 def generate_table(current_data_from_ULC_formatted):
     head = ['Parameter', '\"Raw Data\"/DISPLAY']
     properties = ['Software Version', 'STATE', 'SUPERHEAT', 'EVAP OUT', 'SUCTION PRESSURE', 'LIQUID SOLENOID DUTY', 'HOT GAS DUTY']
